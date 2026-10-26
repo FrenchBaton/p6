@@ -4,11 +4,31 @@
 }
 
 body{
-    padding: 10%;
     align-items: center;
+    background-color: rgb(234, 234, 234);
 }
 #header{
+    background-color: rgb(117, 29, 29);
+    color: aliceblue;
+    padding: 20px 20px;
+}
+#header p{
+    display: inline;
+    padding: 0px 40px;
+    /* background-color: aqua; */
+}
+#header ul{
+    padding: 0px 20px;
 
+    list-style: none;
+    /* background-color: rgb(120, 187, 187); */
+    display: inline;
+}
+#header li{
+    /* background-color: rgb(234, 0, 255); */
+    padding: 0px 20px;
+    list-style: none;
+    display: inline-block;
 
 }
 
@@ -19,7 +39,7 @@ body{
 
 #right-sitebar{
 
-    
+
 }
 
 #footer{
