@@ -7,6 +7,14 @@ body{
     align-items: center;
     background-color: rgb(234, 234, 234);
 }
+main{
+    margin:15px 0px ;
+    padding: 5px 10% ;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
 #header{
     background-color: rgb(117, 29, 29);
     color: aliceblue;
@@ -32,16 +40,73 @@ body{
 
 }
 
-#main{
+#main h1{
+    margin-bottom:15px;
 
+}
+#main p{
+    margin:15px 0px ;
 
+}
+.from-text{
+    margin:15px 0px ;
+    margin-bottom: 25px;
+    font-size: small;
 }
 
 #right-sitebar{
-
-
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    flex-direction: column;
+    height: 100%;
+    /* 
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    padding: 20px; */
+}
+#right-sitebar img{
+    aspect-ratio: 1 / 1.3;
+    width: 250px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 10px 5px  ;
+}
+table tr, table td{
+    /* border: 1px solid black; */
+    text-align: left;
+    vertical-align: top;
 }
 
+footer{
+    padding: 5px 10% ;
+
+}
+footer a{
+    /* padding: 5px 10% ; */
+    aspect-ratio: 1 / 1.3;
+    width: 10%;
+    /* display: block; */
+    background-color: aquamarine;
+    /* border: 1px solid cadetblue; */
+    font-size: 0px;
+}
+footer a :hover{
+    outline: 2px solid rgb(114, 109, 109);
+}
+footer img{
+     /*aspect-ratio: 1 / 1.3; */
+    width: 100%;
+    height: 100%;
+}
 #footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(180, 180, 180);
 
 }
